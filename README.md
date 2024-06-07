@@ -1,19 +1,5 @@
 # Interactive Photo Gallery
 
-## Description
-This project is an interactive photo gallery built with HTML, CSS, and JavaScript. It adapts to different screen sizes and provides hover interactions.
-
-## Setup
-1. Clone the repository: `git clone <repo-url>`
-2. Open `index.html` in a web browser.
-
-## Coding Challenges
-Two coding challenges are included in the `Challenges` directory:
-- `arrayMap.js`: Implements a custom array map function.
-- `stringTransform.js`: Reverses a given string.
-
-# Interactive Photo Gallery
-
 ## Overview
 
 This project is an interactive photo gallery built using HTML, CSS, and JavaScript. The gallery is designed to be responsive, adapting seamlessly to different screen sizes and devices. It matches the provided Figma designs pixel-perfectly, includes hover interactions, and ensures cross-browser compatibility.
