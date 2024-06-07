@@ -41,7 +41,7 @@ interactive-photo-gallery/
   ```bash
 1. **Clone the Repository:**
  
-   git clone https://github.com/yourusername/interactive-photo-gallery.git
+   [git clone https://github.com/yourusername/interactive-photo-gallery.git](https://github.com/uwambajeddy/photo-garelly.git)
    cd interactive-photo-gallery
 
 2. **Open the Project:**
