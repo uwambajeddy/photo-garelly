@@ -6,6 +6,8 @@ This project is an interactive photo gallery built using HTML, CSS, and JavaScri
 
 Additionally, the project includes solutions to two coding challenges focused on array manipulation and string transformation.
 
+[Click here for a preview ➡️](https://uwambajeddy.github.io/photo-garelly/)
+
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
