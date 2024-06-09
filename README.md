@@ -76,7 +76,8 @@ If the length of the string is divisible by 5, replace each character with its A
 If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the order specified above.
 
 ### Screenshots
-![Phot garelly](https://github.com/uwambajeddy/photo-garelly/assets/59047760/9a56d979-a640-4854-9f28-0fb58ca26ce6)
+
+![Phot garelly](https://github.com/uwambajeddy/photo-garelly/assets/59047760/19b124fc-3695-439b-86b7-53f8cf9428c7)
 
 
 ### License
