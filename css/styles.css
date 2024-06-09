@@ -5,7 +5,7 @@
 }
 
 body {
- font-family: 'DIN Condensed Web', sans-serif;
+  font-family: 'DIN Condensed Web', sans-serif;
   background-color: #000;
   color: #fff;
   line-height: 34.5px;
@@ -28,7 +28,7 @@ body {
   height: 100vh;
   object-fit: cover;
   display: block;
-  transition: filter 0.5s;
+  transition: filter 0.3s, transform 0.3s;
 }
 
 .gallery-item .info {
@@ -37,29 +37,55 @@ body {
   left: 10px;
   color: #fff;
   padding: 10px;
-  transition: all 0.5s;
- 
+  transition: transform 0.3s;
+}
+
+.gallery-item .info h2,
+.gallery-item .info p {
+  margin: 0;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
 .gallery-item .info h2 {
- font-weight: 700;
-  margin: 0;
+  font-weight: 700;
   font-size: 40px;
 }
 
 .gallery-item .info p {
- opacity: 0.8;
-  margin: 0;
+  opacity: 0.8;
   font-size: 14px;
+}
+
+.gallery-item .know-more {
+  opacity: 0;
+  margin-top: 10px;
+  color: #92e4ff;
+  transition: opacity 0.3s;
+  position: absolute;
+  margin-top: -34px;
 }
 
 .gallery-item:hover img {
   filter: grayscale(100%) blur(5px);
+  transform: scale(1.05);
 }
 
-.gallery-item:hover .info::after {
-  content: "Know More \2192";
-  display: block;
-  margin-top: 10px;
-  color: #f37500;
+.gallery-item:hover .info h2,
+.gallery-item:hover .info p {
+  transform: translateY(-30px);
+  opacity: 0.8;
+}
+
+.gallery-item:hover .info .know-more {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    justify-content: flex-start;
+  }
+
+  .gallery-item .info {
+    display: none;
+  }
 }
