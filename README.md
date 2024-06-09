@@ -6,6 +6,8 @@ This project is an interactive photo gallery built using HTML, CSS, and JavaScri
 
 Additionally, the project includes solutions to two coding challenges focused on array manipulation and string transformation.
 
+[Click here for a live demo ➡️](https://uwambajeddy.github.io/photo-garelly/)
+
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
@@ -13,8 +15,7 @@ Additionally, the project includes solutions to two coding challenges focused on
 3. [Usage](#usage)
 4. [Coding Challenges](#coding-challenges)
 5. [Screenshots](#screenshots)
-6. [Contributing](#contributing)
-7. [License](#license)
+6. [License](#license)
 
 ## Project Structure
 
@@ -42,7 +43,7 @@ interactive-photo-gallery/
   ```bash
 1. **Clone the Repository:**
  
-   git clone https://github.com/yourusername/interactive-photo-gallery.git
+  https://github.com/uwambajeddy/photo-garelly.git
    cd interactive-photo-gallery
 
 2. **Open the Project:**
@@ -75,9 +76,8 @@ If the length of the string is divisible by 5, replace each character with its A
 If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the order specified above.
 
 ### Screenshots
+![Phot garelly](https://github.com/uwambajeddy/photo-garelly/assets/59047760/9a56d979-a640-4854-9f28-0fb58ca26ce6)
 
-### Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome improvements and new features!
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
