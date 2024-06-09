@@ -24,8 +24,6 @@ interactive-photo-gallery/
 ├── index.html
 ├── css/
 │ └── styles.css
-├── js/
-│ └── script.js
 ├── images/
 │ └── fennec-fox.png
 │ └── humpback-whale.png
